@@ -10,7 +10,6 @@ class PagesController < ApplicationController
         # plyta_zbysia = { autor: 'Zbigniew Wodecki', tytul: 'Top 1000 hits'}
         #@ulubione_plyty = [plyta_Marysi, plyta_zbysia]
         @user = User.find_by(name: 'Filip')
-        @czas = Time.now #pokazuje aktulana godzine jest to klasa wiec z duzej litery
         @lubieto = ['karmel','zwierzatka', 'morze', 'gory']
 
     end
